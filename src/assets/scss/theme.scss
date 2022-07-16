@@ -1,12 +1,13 @@
-@import 'custom';
-
+//MUST FOLLOW BY ORDER
 //IMPORT THE COMPONENTS
-@import 'components/mixins';
-@import 'components/typography';
-@import 'components/buttons';
-@import 'components/animations';
+@import './components/variable';
+@import './components/vendors';
+@import './components/mixins';
+@import './components/typography';
+@import './components/buttons';
+@import './components/animations';
 
 //IMPORT THE SECTIONS
-@import 'sections/nav';
-@import 'sections/intro-section';
-@import 'sections/companies';
+@import './sections/nav';
+@import './sections/intro-section';
+@import './sections/companies';
