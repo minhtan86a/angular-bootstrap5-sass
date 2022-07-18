@@ -1,7 +1,7 @@
 //MUST FOLLOW BY ORDER
 //IMPORT THE COMPONENTS
-@import './components/vendors';
 @import './components/variable';
+@import './components/vendors';
 @import './components/mixins';
 @import './components/typography';
 @import './components/buttons';
@@ -11,3 +11,9 @@
 @import './sections/nav';
 @import './sections/intro-section';
 @import './sections/companies';
+@import './sections/services-section';
+@import './sections/testimonials-section';
+@import './sections/faq';
+@import './sections/portfolio';
+@import './sections/get-started';
+@import './sections/footer';
